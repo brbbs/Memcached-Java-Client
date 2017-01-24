@@ -55,7 +55,7 @@ public class Logger {
 
 	protected Logger( String name ) {
 		this.name  = name;
-		this.level = LEVEL_INFO;
+		this.level = LEVEL_ERROR;
 		this.initialized = true;
 	}
 
